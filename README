@@ -1,3 +1,4 @@
+官方说明
 This is Boa, a high performance web server for Unix-alike computers,
 covered by the Gnu General Public License.  This is version 0.94,
 released January 2000.  It is well tested and appears to be of
@@ -13,3 +14,8 @@ or visit the Boa homepage at
 
         http://www.boa.org/
 
+编译及使用
+
+./configure 在src下生成makefile
+cd src 切换至src目录
+执行 make 生成可执行文件boa和boa_indexer
